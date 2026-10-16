@@ -8,8 +8,7 @@
     "start": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "test": "npm run build && ex-test -d ./dist -t ./test/test.js",
-    "preinstall": "node preinstall.js"
+    "test": "npm run build && ex-test -d ./dist -t ./test/test.js"
   },
   "repository": {
     "type": "git",
